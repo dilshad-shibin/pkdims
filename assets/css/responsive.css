@@ -3,6 +3,7 @@
         margin-top: 0;
         padding: 20px 0 20px;
         width: auto;
+        z-index: 0;
     }
     .main-header .header-top .top-outer{
         margin-left: 0;
@@ -19,6 +20,18 @@
     }
     .main-header .elementskit-navbar-nav > li > a{
         font-size: 15px;
+    }
+    .fullwidth-section .left-column,
+    .fullwidth-section .right-column{
+        width: 100%;
+    }
+    .fullwidth-section .left-column .inner-column,
+    .fullwidth-section .right-column .inner-column{
+        max-width: 100%;
+        padding: 60px 15px 70px 10px;
+    }
+    .fullwidth-section .icon-box{
+        float: none;
     }
 }
 
@@ -73,10 +86,23 @@
     .fluid-navbar{
         padding: 0 15px;
     }
+    .footer-bottom .pull-left,
+    .footer-bottom .pull-right{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-bottom .pull-right .social-box{
+        text-align: center;
+        width: 100%;
+        margin-top: 15px;
+    }
 }
 
 @media(max-width: 575px){
     .banner-column h2{
+        font-size: 35px;
+    }
+    .about-header h2{
         font-size: 35px;
     }
 }
